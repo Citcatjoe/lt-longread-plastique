@@ -1,0 +1,1073 @@
+{% use '_blocks.html.twig' %}
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+
+		{{ block('head_brand') }}
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/loader.css" />
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,400italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+		<script src="https://www.youtube.com/iframe_api"></script>
+		<script>var players = [];</script>
+
+	</head>
+	<body style="padding-top: {{ navBarOffset }};">
+		{{ block('bar_brand') }}
+
+		<!-- <div class="fixed-map-wrapper">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 352 824" style="enable-background:new 0 0 352 824;" xml:space="preserve">
+				<style type="text/css">
+					.st0{display:none;}
+					.st1{fill:none;stroke:#C9C9C9;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+					.st2{fill:none;stroke:#BFBFBF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+					.st3{fill:none;stroke:#00AFF4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+					.st4{opacity:0.75;}
+					.st5{fill:#4C4C4C;}
+					.st6{font-family:'HelveticaNeue-Light';}
+					.st7{font-size:13.5138px;}
+					.st8{fill:#545454;}
+					.st9{font-size:19.9114px;}
+					.st10{stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+					.st11{opacity:0.75;fill:#4C4C4C;enable-background:new    ;}
+					.st12{opacity: 0.25 !important;}
+				</style>
+				<g id="map" class="st0">
+					
+						<image style="display:inline;overflow:visible;opacity:0.51;" width="1914" height="1110" xlink:href="../../../../Desktop/Capture d’écran 2017-07-10 à 13.47.32.png"  transform="matrix(0.3805 1.429 -1.429 0.3805 479.8834 -585.5818)">
+					</image>
+				</g>
+				<g id="wall">
+					<g id="Calque_2" class="st0">
+						
+							<image style="display:inline;overflow:visible;opacity:0.65;enable-background:new    ;" width="1914" height="1110" xlink:href="../../../../Desktop/Capture d’écran 2017-07-10 à 13.47.32.png"  transform="matrix(0.2159 0.7463 -0.7463 0.2159 330.298 -298.1519)">
+						</image>
+					</g>
+					<g id="Calque_1_1_">
+						<g id="path-full">
+							<path class="st1" d="M120.4,48.5c0,0,21.2,69.4,25.1,77.1s19.3,38.5,21.2,46.3c1.9,7.7,3.9,21.2,3.9,21.2h-25.1v88.7l-7.7,25.1
+								l-5.8,21.2v52l-5.8,19.3v17.3l-5.8,55.9l25.1,67.5l7.7,40.5l15.4,38.5l9.6,30.8c0,0,28.9-7.7,30.8-7.7c1.9,0,9.6,1.9,9.6,1.9V673
+								l21.2,38.5l9.6,34.7"/>
+						</g>
+					</g>
+				</g>
+				<g id="path-phoenix-nogales">
+					<path class="st3" d="M277.1,344.2l-7.3,6.5l-1.6,8.6l-8.6,3l-21.5,24.5l-9.4,3.2c-0.9,1-6,16.3-9.1,25l-19.1,31.2l-34.7,9.1
+						l-10.8-2.4l-14,4.8l-4.6,6.7l-14.5,9.9"/>
+				</g>
+				<g id="path-nogales-tombstone-elpaso">
+					<path class="st3" d="M120.9,477l27.7,10.1l3.4,5.1l5.8,4.9c0,0,6.3,2.4,8.2,3.8c1.8,1.4,4,3.8,4,3.8l8.3,6.7l4.2,10.5l6.3,14.3
+						L189,552l9.1,22.3l11.8,23.5l3.6,18.1l23.4,2.2l22.1,50.9l-1.6,11.2l15.4,40.6l-21.9,27.5"/>
+				</g>
+				<g id="path-elpaso-tucson-sells">
+					<path class="st3" d="M250.7,748.4l21.9-27.5l-15.4-40.6l1.6-11.2l-22.1-50.9l7.3-21.3l-0.9-7.4l-15.1-14.5l0.3-43.1l-3.5-7.4
+						l-12.4-5.6l-11.5-7.4c0,0-8.6-3.9-9.4-4.4s-5.3-10.6-5.3-10.6l-3.5-15.1l0.6-10.6l6.5-14.8l10.7-9.9l-24-25.3l-19.8-12.7"/>
+				</g>
+				<g id="path-sells-yuma">
+					<path class="st3" d="M156.7,406.3l2.4-35.1c0,0-11.6-37.1-11.5-38.4c0.1-1.3,4.7-10.6,4.7-10.6l23.3-5l15.4-13l18.6-5.6l-9.7-22.1
+						l-13-16.5l-10-19.8l-5.9-13.9l3.8-10"/>
+				</g>
+				<g id="path-yuma-sandiego">
+					<path class="st3" d="M175.3,213c0,0,0.9-13.3,0.9-14.8c0-1.5-2.4-17.7-2.4-17.7l-4.4-15.9L157,138l-8.9-17.4L135.4,81l-6.8-26
+						l-10.3-8"/>
+				</g>
+				<g id="phoenix-text">
+					<g class="st4">
+						<text transform="matrix(1 0 0 1 290.4651 348.3571)" class="st5 st6 st7">Phoenix</text>
+					</g>
+				</g>
+				<g id="phoenix-dot">
+					<g id="step1-dot_9_">
+						<circle class="st8" cx="277" cy="344" r="3.5"/>
+					</g>
+				</g>
+				<g id="nogales-text">
+					<text transform="matrix(1 0 0 1 27.9042 481.3255)" class="st5 st6 st9">Nogales</text>
+					<text transform="matrix(1 0 0 1 38.4042 504.3255)" class="st5 st6 st9">(MEX)</text>
+					<text transform="matrix(1 0 0 1 142.0031 481.8817)" class="st5 st6 st9"> Nogales (USA)</text>
+				</g>
+				<g id="nogales-dot">
+					<g id="step1-dot_2_">
+						<circle class="st10" cx="120.7" cy="475.6" r="7.3"/>
+					</g>
+				</g>
+				<g id="tombstone-text">
+					<text transform="matrix(1 0 0 1 192.0889 514.8159)" class="st11 st6 st7">Tombstone</text>
+				</g>
+				<g id="tombstone-dot">
+					<g id="step1-dot_3_">
+						<circle class="st8" cx="178.4" cy="510.5" r="3.5"/>
+					</g>
+				</g>
+				<g id="elpaso-text">
+					<text transform="matrix(1 0 0 1 170.4007 755.1216)" class="st5 st6 st9">Juarez</text>
+					<text transform="matrix(1 0 0 1 174.2007 779.0216)" class="st5 st6 st9">(MEX)</text>
+					<text transform="matrix(1 0 0 1 270.8035 755.6919)" class="st5 st6 st9">El Paso</text>
+					<text transform="matrix(1 0 0 1 278.9035 779.5919)" class="st5 st6 st9">(USA)</text>
+				</g>
+				<g id="elpaso-dot">
+					<g id="step1-dot">
+						<circle class="st10" cx="248.7" cy="748.2" r="7.3"/>
+					</g>
+				</g>
+				<g id="tucson-text">
+					<g class="st4">
+						<text transform="matrix(1 0 0 1 213.5341 450.7631)" class="st5 st6 st7">Tucson</text>
+					</g>
+				</g>
+				<g id="tucson-dot">
+					<g id="step1-dot_4_">
+						<circle class="st8" cx="200.1" cy="444.9" r="3.5"/>
+					</g>
+				</g>
+				<g id="sells-text">
+					<g class="st4">
+						<text transform="matrix(1 0 0 1 170.8308 412.7429)" class="st5 st6 st7">Sells</text>
+					</g>
+				</g>
+				<g id="sells-dot">
+					<g id="step1-dot_5_">
+						<circle class="st8" cx="157.5" cy="408.3" r="3.5"/>
+					</g>
+				</g>
+				<g id="ajo-text">
+					<g class="st4">
+						<text transform="matrix(1 0 0 1 189.123 320.9916)" class="st5 st6 st7">Ajo</text>
+					</g>
+				</g>
+				<g id="ajo-dot">
+					<g id="step1-dot_1_">
+						<circle class="st8" cx="176.5" cy="316.2" r="3.5"/>
+					</g>
+				</g>
+				<g id="yuma-text">
+					<g class="st4">
+						<text transform="matrix(1 0 0 1 189.1637 219.5013)" class="st5 st6 st7">Yuma</text>
+					</g>
+				</g>
+				<g id="yuma-dot">
+					<g id="step1-dot_7_">
+						<ellipse class="st8" cx="174.5" cy="215.2" rx="3.5" ry="3.5"/>
+					</g>
+				</g>
+				<g id="sandiego-text">
+					<text transform="matrix(1 0 0 1 145.6796 55.2096)" class="st5 st6 st9">San Diego</text>
+					<text transform="matrix(1 0 0 1 165.9796 79.1096)" class="st5 st6 st9">(USA)</text>
+					<text transform="matrix(1 0 0 1 34.1328 53.6955)" class="st5 st6 st9">Tijuana</text>
+					<text transform="matrix(1 0 0 1 39.8328 77.5955)" class="st5 st6 st9">(MEX)</text>
+				</g>
+				<g id="sandiego-dot">
+					<g id="step1-dot_8_">
+						<circle class="st10" cx="119.8" cy="47.7" r="7.3"/>
+					</g>
+				</g>
+			</svg>
+		</div> -->
+		
+		<!-- <div class="overlay">
+			<img class="logo-lt-blanc" src="img/logo-lt-blanc.svg" alt="">
+			<div class="spinner">
+				<div class="double-bounce1"></div>
+				<div class="double-bounce2"></div>
+			</div>
+		</div> -->
+
+		<header>
+			<div class="header__bg"></div>
+			<div class="header__gradient"></div>
+			
+			<!-- <div class="video-wrapper">
+				<video playsinline autoplay loop muted>
+				  <source src="https://player.vimeo.com/external/272224606.hd.mp4?s=0767373c2b5d80d663ef69df7f25421cf400f1e7&profile_id=175" type="video/mp4"> 
+				  Votre navigateur ne supporte pas les vidéos HTML%.
+				</video>
+			</div> -->
+
+			<!-- <div class="smil-wrapper">
+				<div class="layer layer-bg"><img src="img/scene-intro-bg.svg" alt=""></div>
+				<div class="layer layer-clouds"><img src="quoi bon/scene-intro-clouds.svg" alt=""></div>
+				
+				<div class="layer layer-smoke1"><img src="img/scene-intro-smoke1.svg" alt=""></div>
+				<div class="layer layer-smoke2"><img src="img/scene-intro-smoke2.svg" alt=""></div>
+				<div class="layer layer-msc"><img src="img/scene-intro-msc.svg" alt=""></div>
+				<div class="layer layer-speedboat"><img src="img/scene-intro-speedboat.svg" alt=""></div>
+				<div class="layer layer-fishboat"><img src="img/scene-intro-fishboat.svg" alt=""></div>
+			</div> -->
+
+			<div class="header__content">
+				<div class="header__content__container">
+					<div class="header__content__container__box">
+						<h1>Homo<br>Plasticus<!-- <span></span> --></h1>
+						<!-- <img class="separateur" src="img/separateur.svg" alt=""> -->
+						<h2 class="author">Un article de<span> Fabien Goubet</span></h2>	
+						<h2 class="social" >
+							<a target="blank" href="https://www.facebook.com/sharer.php?u={{ app.url }}&display=popup&ref=plugin&src=share_button"><i class="fa fa-facebook"></i></a>
+							<a target="blank" href="https://twitter.com/intent/tweet?text={{ description ~ ' ' ~ app.url ~ ' '|url_encode }}&via=letemps"><i class="fa fa-twitter fa-middle"></i></a>
+							<a target="blank" href="https://www.linkedin.com/shareArticle?url={{ app.url }}&mini=true&title={{ title|url_encode }}&summary={{ description|url_encode }}&source={{ 'Le Temps'|url_encode }}"><i class="fa fa-linkedin"></i></a>
+						</h2>
+					</div>
+				</div>
+			</div> 
+
+			
+
+			<div class="scroll-indicator">
+				<div class="scroll-indicator-inner"></div> 
+			</div>
+
+			<!-- <div class="header-sponsor">
+				<a href="https://www.letemps.ch/partenariats" target="_blank"><span class="charte">[?]</span></a>
+				<a href="https://www.mirabaud.com/fr/" target="_blank"><img src="img/logo-sponsor-only.svg" alt=""></a> 
+				<span>Avec le soutien de </span>
+
+			</div> -->
+		</header>
+
+		
+
+		<section class="text">
+			<div class="container">
+
+				<h3>Une plage ensoleillée, le doux ressac de l’eau...et, par terre, dénotant sur le sable brunâtre, une multitude de petits points
+				colorés<hr> 
+				</h3>
+
+				<div class="spacer-small"></div>
+				<div class="spacer-small"></div>
+
+				<h4>
+					Texte: Pascaline Minet<br>
+					<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>Illustrations: Florent Collioud et César Greppin<br>
+					<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span> Vidéos: Arnaud Mathier<br>
+					<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span> Webdesign et animation: César Greppin
+				</h4>
+
+				<p>
+					 Ces petits spots rouges bleus verts ou de toute autre couleur ne sautent immédiatement pas aux yeux du promeneur. Mais une
+					fois son regard accoutumé, impossible de ne plus les voir. De minuscules billes, des bouchons de bouteilles, des fragments
+					de bâtonnets de coton-tige par dizaines…
+				</p>
+
+				<p>
+					 Nul besoin de se rendre à l’autre bout du monde pour être aux première loges de l’invasion des plastiques. Ici aussi, en
+					Suisse, sur une plage du Léman, ce matériau s’est petit à petit incrusté dans le paysage. Il pollue les eaux, salit les rives,
+					enlaidit le paysage. Et finit invariablement par gagner la mer.
+				</p>
+
+				<p>
+					 L’homme s’est rendu malade de son plastique, qu’il produit dans des quantités infernales. Il est temps d’y remédier.
+
+				</p>
+
+			</div>
+		</section>
+
+	
+		
+
+		<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery hero">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder.jpg">
+				<div class="caption">
+					Seiko Astron GPS
+				</div>
+			</div>
+		</section>
+
+		
+		<section class="">
+			<div class="container">
+
+				<h3 class="inter-titre title">Le plastique, c'est fantastique</h3>
+
+				<p>
+					Avant de clouer cette matière pop au pilori, il convient de regarder en arrière. Si le plastique n’existait pas, il faudrait
+					l’inventer. Principalement dérivé du pétrole, ce matériau dispose de propriétés presque sur mesure. Tantôt souple, tantôt
+					solide, résistant ou au contraire malléable à la chaleur… cette néo argile entièrement synthétique est façonnée à l’envi
+					par les chimistes.
+				</p>
+
+				<p>
+					 Son succès est indissociable de l’essor de l’industrie chimique au début du XXe siècle, qui marque le début de ce que certains
+					appellent le «plasticocène», l’ère du plastique. Le premier plastique à être massivement produit fut la bakélite, matière
+					100% synthétique mise au point en 1907 par le chimiste américano-belge Leo Baekeland. On le retrouvait notamment dans les
+					téléphones fixes à cadran. A partir de là, les progrès de la chimie ont entraîné une avalanche de nouvelles matières plastiques
+					qui révolutionnèrent le quotidien: collants synthétiques en 1910, intérieurs des voitures en 1916, bande scotch et film cellophane
+					en 1930, nylon en 1935...la liste est longue.
+				</p>
+				
+			</div>
+		</section>
+
+		<!-- TIMELINE -->
+		<section>
+		
+			<div class="main">
+				<ul class="cbp_tmtimeline">
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1910</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Collants en viscose</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1916</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Intérieurs de voitures</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1930</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Bande scotch et film de cellophane</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1935</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Nylon</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1939</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>PET</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1942</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Super Glue</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1943</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Teflon</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1949</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Sagey, lycra et Tupperwares</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1950</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Disques vynil, jouets Barbie, Hoola hoop, ABS (plastique de Lego)</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1960</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Introduction of water based acrylic paints</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1965</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Kevlar® is first developed by DuPont</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1968</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Première bouteille de Vittel en PVC</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1989</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>First light-emitting polymers (poly-ethyne) discovered in Cambridge</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1990</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>ICI launches Biopol, the first commercially available biodegradable plastic</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>1992</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Premières bouteilles en PET (Valvert, Nestlé, Coca)</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>2008</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Airbus 380, comprising 22% carbon-fibre reinforced plastics flies into Heathrow</h2>
+						</div>
+					</li>
+					<li class="foo">
+						<time class="cbp_tmtime" datetime="2013-04-10 18:30">
+							<!-- <span>4/10/13</span> -->
+							<span>2009</span>
+						</time>
+						<div class="cbp_tmicon">
+							<i class="fa fa-globe"></i>
+						</div>
+						<div class="cbp_tmlabel">
+							<h2>Boeing 787 (nicknames 'Boeing's Plastic Dream') comes into service, its skin is made up of 100% Plastic composites with
+								plastic making up 50% of all materials in the plane.</h2>
+						</div>
+					</li>
+				</ul>
+				<div class="credits">
+					<p>Source: MAchin truc 2016</p>
+		
+				</div>
+			</div>
+		
+		</section>
+
+		<section>
+			<div class="container">
+
+				<p>
+					 Aujourd’hui persona non grata, le plastique a pour lui une longue histoire de matériau miracle. Produit synthétique par
+					excellence, il représentait durant les «années plastiques» l’affranchissement et la supériorité de l’homme sur la nature,
+					voire l’émancipation de la femme - qui en réalité avait tout autant de corvées à effectuer. Le musée des arts décoratifs
+					de Lausanne y consacrait encore une exposition dithyrambique, Le Plastique Roi en … 1985.
+				</p>
+
+				<!-- ENCART DROIT à L'INTéRIEUR D'UN PARAGRAPHE. DOIT ÊTRE DANS UNE SECTION -->
+				<div class="block-content right">
+					<img class="zoom lazy" data-original="img/article/plastique-roi.jpg">
+					<div class="caption">
+						<b>DEVANT L'ANCIEN PONT À PÉAGE</b>, nous sommes rejoints par Franz Senn qui nous servira de guide</div>
+				</div>
+
+				<p>
+					 Surtout, le plastique est resté le symbole du capitalisme et de la culture du jetable. A quoi bon s’échiner à le recycler?
+					Il coûte moins cher d’en produire de nouveau...
+
+				</p>
+
+				<p>
+					 Le succès foudroyant des plastiques est aujourd’hui à la racine du problème. Il a conduit à leur omniprésence et à leur
+					abondance, qui sont devenus sont les grands défauts de leurs qualités. De 15 millions de tonnes en 1960, la production a
+					grimpé à un rythme exponentiel pour s’établir à plus de 300 millions aujourd’hui, dont environ 40% destinés aux emballages.
+
+				</p>
+
+			</div>
+		</section>
+		
+		<!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery small">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/article/chart-courbe.svg">
+				<div class="caption">
+					<b>PRODUCTION MONDIALE DE PLASTIQUE</b>, hors plastiques recyclés et bioplastique (Source: PlasticsEurope).
+				</div>
+			</div>
+		</section>
+        
+		<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery hero">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder.jpg">
+				<div class="caption">
+					Seiko Astron GPS
+				</div>
+			</div>
+		</section>
+
+		<section class="">
+			<div class="container">
+		
+				<h3 class="inter-titre title">L’impossible bilan</h3>
+		
+				<p>
+					 Mener l’inventaire d’une telle pollution est tout sauf une partie de plaisir. Des scientifiques de l’université de Géorgie
+					et de Californie l’ont pourtant fait. Leur compte rendu fut publié dans la revue Science Advances en 2017.
+
+				</p>
+		
+				<p>
+					 Roland Geyer et son équipe ont déterminé que 8,3 milliards de tonnes de plastique avaient été produites entre 1950 et 2015,
+					principalement par la Chine (29%) et l’Europe (19%). Sur cette quantité, 6,3 milliards de tonnes ont été jetées, devenant
+					des déchets très peu biodégradables dont seulement 9% ont été recyclés, 12% incinérés. Le reste, soit 4,9 milliards de tonnes,
+					ont atterri dans des décharges ou dans la nature. La plupart terminent leur périple dans les océans, où plus de huit millions
+					de tonnes sont déversées chaque année.
+
+				</p>
+
+				<p>
+					 Si l’on devait tout rassembler au même endroit, la totalité des plastiques produits et abandonnés depuis 1950 rempliraient
+					une décharge de 70 mètres de profondeur pour 57 km2 de surface - soit un peu plus que la taille de la ville de Berne. Si
+					la production actuelle se maintient, il y aura environ 12 milliards de tonnes de déchets plastiques dans les décharges ou
+					dans la nature d’ici 2050. Et encore, tous ces chiffres sont à considérer avec précaution. Les données proviennent de statistiques
+					sur les déchets communiquées par la Banque mondiale ou les instances nationales des pays inclus dans l’étude, et non de véritables
+					mesures effectuées sur le terrain. «Les flux de plastique dans l’environnement sont des processus connus mais difficilement
+					modélisables à grande échelle», confirme Delphine Wenger, doctorante en sciences de l’environnement au Laboratoire fédéral
+					d'essai des matériaux et de recherche (Empa) à Saint-Gall.
+
+				</p>
+		
+			</div>
+		</section>
+
+		<!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery small">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder">
+				<div class="caption">
+					<b>INFOG DE FLO</b>, INFOG DE FLO.
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+
+				<p>
+					 Avec de solides filières de valorisation et de recyclage, de tels chiffres n’inspireraient guère d’inquiétude. Mais rien
+					n’est simple avec la fin de vie du plastique, qui n’est pas un matériau unique, mais une famille comptant des centaines de
+					membres. On en distingue sept grands groupes, chacun ayant leur filière de valorisation plus ou moins efficace. Ils sont
+					représentés par de petits pictogrammes avec trois flèches formant un triangle - logos qui laissent supposer, à tort, l’existence
+					d’un recyclage.
+				</p>
+
+
+			</div>
+		</section>
+
+		<!-- SLIDER D'IMAGES -->
+		<section class="gallery slider padding-bottom">
+			<div class="layout">
+				<div class="owl">
+					<div class="owl-img-wrapper">
+						<img class="lazyOwl" data-src="img/lazy-placeholder.jpg">
+					</div>
+					<div class="owl-img-wrapper">
+						<img class="lazyOwl" data-src="img/lazy-placeholder.jpg">
+					</div>
+					<div class="owl-img-wrapper">
+						<img class="lazyOwl" data-src="img/lazy-placeholder.jpg">
+					</div>
+					<div class="owl-img-wrapper">
+						<img class="lazyOwl" data-src="img/lazy-placeholder.jpg">
+					</div>
+					<div class="owl-img-wrapper">
+						<img class="lazyOwl" data-src="img/lazy-placeholder.jpg">
+					</div>
+					<div class="owl-img-wrapper">
+						<img class="lazyOwl" data-src="img/lazy-placeholder.jpg">
+					</div>
+					<div class="owl-img-wrapper">
+						<img class="lazyOwl" data-src="img/lazy-placeholder.jpg">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+
+				<p>
+					 A cette difficulté s’est ajoutée un coup de tonnerre survenu fin 2017. La Chine a annoncé cesser d’acheter les déchets des
+					pays occidentaux, dont le plastique, comme elle le faisait jusqu’alors. Or le pays, qui recyclait environ la moitié des déchets
+					mondiaux, faisait fondre le plastique pour en faire des matières premières qu’elle exportait. XXXX Xavier Prudhomme
+				</p>
+
+				<p>
+					 Tourisme, agriculture, eaux usées et pêcheries sont les principaux secteurs responsables. Les pays les plus pollueurs seraient
+					en Asie d’après un rapport de l’organisation Ocean Conservancy. La Chine, la Thaïlande, les Philippines, l’Indonésie et le
+					Vietnam seraient à eux cinq responsables de 80% du plastique déversé dans la nature. Une autre étude publiée en 2017 a estimé
+					que 90% du plastique arrivant par les rivières le serait via seulement dix rivières, huit en Asie et deux en Afrique.
+				</p>
+
+			</div>
+		</section>
+
+		<!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery big">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder">
+				<div class="caption">
+					<b>INFOG DE FLO</b>, carte du monde.
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+
+				<p>
+					 Le plastique qui gagne la mer provient essentiellement de déchets non collectés. C’est pourquoi les pays pauvres, qui ne
+					jouissent pas d’un réseau de collecte des déchets performants, comptent parmi les plus pollueurs.
+
+				</p>
+
+			</div>
+		</section>
+
+		<!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery small">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder">
+				<div class="caption">
+					<b>INFOG DE FLO</b>, chiffres suisse.
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+
+				<p>
+					 Mais les pays riches polluent eux aussi, et la Suisse n’y échappe pas. Il suffit de jeter un oeil aux statistiques de l’Office
+					fédéral pour l’environnement (OFEV) pour s’en convaincre. Avec 730 kilos de déchets par habitant et par an, la Suisse est
+					vice-championne d’Europe du remplissage de poubelles, derrière le Danemark. Mais question plastique, elle surclasse tous
+					ses adversaires avec environ 94 kilos de déchets par habitant et par an, soit trois fois plus que la moyenne européenne.
+				</p>
+
+				<p>
+					 Sur le million de tonnes de plastiques en tous genres consommés chaque année, une immense partie (78%) sont jetés, le reste
+					étant utilisé durablement (pour la construction par exemple). Le pays a beau disposer de systèmes de collecte des déchets
+					performants, il est inévitable qu’une certaine proportion finisse dans la nature. Et ce d’autant plus que seule une infime
+					partie - à peine 10% - des plastiques sont recyclés, principalement les bouteilles en PET. L’immense majorité restante est
+					incinérée pour produire du chauffage ou de l’électricité, une «valorisation énergétique» pourtant génératrice de fumées et
+					cendres toxiques. Pourquoi? Parce qu’une fois utilisé, le plastique ne sert plus à rien. Il est même souvent moins cher d’en
+					fabriquer d’autre, plutôt que de le recycler. Question protection de l’environnement, on a vu mieux…
+
+				</p>
+
+				<p>
+					 Mais plus que de jongler avec des chiffres, le mieux pour se rendre compte de la pollution par le plastique en Suisse, reste
+					encore de se tourner vers les lacs et les cours d’eau. L’opération de nettoyage Net’Léman, en est une triste illustration.
+					Menée tous les deux ans sur quelques rives du lac, elle a cette année permis de sortir de l’eau 5492 kg de déchets, dont
+					1000 de plastique, principalement des emballages de nourriture, des pailles, des couverts et des bouteilles.
+
+				</p>
+
+				<p>
+					 «La situation en eau douce reste largement méconnue, même s'il semble qu'il s'agit là de l'origine principale de la pollution
+					marine», écrit dans un rapport d’évaluation Luiz Felippe de Alencastro, du laboratoire central environnemental de l’Ecole
+					polytechnique fédérale de Lausanne. Le chercheur a, dans une remarquable étude parue en 2014, quantifié la présence des microplastiques
+					dans six lacs majeurs de Suisse. Son verdict: «Il apparaît que tous les lacs sont concernés par cette pollution, des microplastiques
+					de tous types et de composition variées pouvant être trouvés dans tous les échantillons». Les concentrations relevées sont
+					ni plus ni moins du même ordre de grandeur que celles des milieux marins. Rivières, lacs et océans sont reliés comme des
+					vases communicants.
+
+				</p>
+
+				<p>
+					 Il suffit d’un rien pour que gobelets de café, bouteilles de soda et autres papiers de barres chocolatées arrivent dans
+					l’eau. D’une rivière ou un lac, rien ne les empêche alors de descendre le Rhône et de se retrouver en Méditerranée puis ailleurs,
+					plus loin, où ils finiront peut-être par étouffer un phoque ou un goéland, ou simplement échouer sur une plage de rêve. Nul
+					besoin de disposer d’un littoral marin pour polluer. Le plastique suisse contamine lui aussi les océans à l’autre bout du
+					monde.
+
+				</p>
+
+				<p>
+					 Et ce n’est pas le plus préoccupant. Une fois dispersés par les courants, les débris sont irrémédiablement perdus, et ce
+					d’autant plus qu’ils se fragmentent sous l’effet des rayonnements ultraviolets du Soleil et de l’oxydation en de minuscules
+					débris de moins de 5 millimètres: les microplastiques. Il y en aurait plus de 50 milliards d’après les estimations les plus
+					récentes. Selon l'Union internationale pour la conservation de la nature (UICN), les micro-plastiques pèseraient jusqu’à
+					31 % du plastique marin. Ils sont si petits qu’ils sont avalés sans distinction par les animaux marins. Ne leur reste plus
+					qu’une étape pour qu’ils atterrissent dans une assiette. Retour à l’envoyeur...
+
+				</p>
+
+			</div>
+		</section>
+
+		<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery hero">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder.jpg">
+				<div class="caption">
+					Seiko Astron GPS
+				</div>
+			</div>
+		</section>
+		
+		<section class="">
+			<div class="container">
+		
+				<h3 class="inter-titre title">Le péril plastique</h3>
+				
+				<p>
+					 Les scientifiques ne savent pas exactement dans quelle mesure le plastique et le microplastique affecte l’environnement.
+					«Les impacts sur le biote sont en premier lieu physiques, mais des effets chimiques sont aussi à attendre, surtout en ce
+					qui concerne les plus petites particules», poursuit Luiz Felippe de Alencastro.
+				</p>
+
+				<p>
+					 L’impact physique des plastiques est tristement connu: ingestion et étranglement s’avèrent souvent mortels pour les 250
+					espèces connues pour être vulnérables à ce matériau, parmi lesquelles les albatros, les pingouins, les tortues et autres
+					baleines. Mais le plus inquiétant est encore une fois invisible à nos yeux, car «70% des microplastiques coulent», dit Luis
+					Felippe de Alencastro.
+				</p>
+
+				<p>
+					 Dans une étude publiée en 2018, des chercheurs de l’Agence japonaise pour la science et la technologie marines ont rapporté
+					dans la revue Marine Policy avoir catalogué 3425 débris de plastique au fond de l’océan Pacifique. Les microplastiques pèsent
+					pour 33% dans cette pêche, dont 89% proviennent de produits à usage unique. Pire, cette proportion augmente avec la profondeur,
+					passant à 92% au-delà des 6000 mètres. Funeste record, un sac plastique a même été retrouvé à près de 11 000 mètres de fond
+					dans la fosse des Mariannes, le point le plus bas de la planète. A de telles profondeurs, des organismes abyssaux ont été
+					vus emmêlés dans des sacs plastique.
+				</p>
+
+				<p>
+					 Et ce n’est pas tout. Bien des microplastiques sont en effet invisibles. Dans l’eau minérale en bouteille par exemple. Parmi
+					250 bouteilles testée9s par des chercheurs de l’université de New York en 2017, 93% contenaient des microplastiques invisibles
+					(PET, nylon, polypropylène, à priori provenant des bouteilles). Evian, Nestlé Pure Life, San Pellegrino...de nombreuses grandes
+					marques sont concernées. En moyenne, 10,4 particules d’environ 0,1 millimètre ont été découvertes par litre d’eau. Leurs
+					effets sur la santé sont inconnus, mais ne présagent rien de très réjouissant. Des chercheurs de l'Université de Genève ont
+					récemment détecté la présence fréquente de cadmium, mercure et plomb dans des déchets plastiques collectés sur les plages
+					du Léman, parfois dans des concentrations très élevées dépassant le maximum autorisé par la législation européenne. Au risque
+					de les retrouver dans les assiettes? «Les microplastiques s’accumulent surtout dans le tube digestif des poissons, qui sont
+					retirés avant la vente», a donné en exemple lors d’une conférence à Yverdon Stefan Kucsera, de l'Office fédéral de la sécurité
+					alimentaire, avant d’admettre que «des études ont toutefois prouvé leur présence dans les muscles».
+				</p>
+
+				<p>
+					 Mais la détermination précise de leur toxicité demeure malaisée. «Pour le savoir avec certitude, il faudrait connaître les
+					dangers encourus, par le biais d’études toxicologiques, ainsi que la durée d’exposition, en modélisant les flux de plastique
+					dans l’environnement», précise Delphine Wenger, qui travaille justement sur cette thématique dans son laboratoire.
+
+				</p>
+
+			</div>
+		</section>
+
+		<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery hero">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder.jpg">
+				<div class="caption">
+					Seiko Astron GPS
+				</div>
+			</div>
+		</section>
+		
+		<section class="">
+			<div class="container">
+		
+				<h3 class="inter-titre title">Faire face</h3>
+
+				<p>
+					 Nul besoin d’attendre les conclusions définitives des scientifiques: la progression exponentielle de la production de plastique
+					suffit pour s’interroger sur les moyens à mettre en oeuvre pour protéger l’environnement. Nettoyer, recycler, réduire ou
+					encore innover: des solutions existent. Mais elles sont loin d’être égales.
+				</p>
+
+				<p>
+					 Des doutes planent ainsi sur les solutions dites de nettoyage, qui visent à débarrasser les océans des plastiques qui les
+					encombrent. L’une des plus célèbres tentatives est sans doute The Ocean Cleanup. Imaginée en 2012 par le Néerlandais Boyan
+					Slat alors qu’il n’avait que 18 ans, elle a pour objectif attraper les plastiques flottants au sein des gyres grâce à des
+					instruments flottants.
+				</p>
+
+				<p>
+					 Des filets devaient initialement être fixés à d’immenses pylônes rotatifs reposant au fond de l’océan. Les prototypes actuellement
+					en test en mer du Nord et dans la baie de San Francisco sont basés sur une toute autre technologie. Exit les filets, soupçonnés
+					de piéger les organismes marins ou soumis à un perpétuel encrassage qui déséquilibrerait l’ensemble. A la place, un long
+					tube de polyéthylène haute densité (sic) balaie la surface de l’eau afin de rassembler les débris, ensuite ramassés par des
+					bateaux. Le tube se déplace à l’aide d’une ancre sous-marine motorisée, immergée à 600 mètres de profondeur. Un grand rideau
+					suspendu au tube permet de ratisser les plastiques flottant sur les premiers mètres, sans piéger les poissons ni être chahutée
+					par les courants. Sorte de Daniel Radcliffe chevelu, le charismatique Boyan Slat estime mettre à l’eau un premier véritable
+					dispositif de nettoyage de 600 mètres de long d’ici 2020.
+
+				</p>
+
+				<p>
+					 Les experts sont sceptiques. «Ramasser n’a de sens que si le déchet a une valeur. Or la plupart des déchets flottants ne
+					représente que environ 1% de ce qui tombe au fond et ils sont si abîmés que même les recycleurs n’en veulent pas», balaie
+					François Galgani.
+
+				</p>
+
+			</div>
+		</section>
+
+		<!-- PETITE IMAGE ENTRE 2 PARAGRAPHES -->
+		<section class="gallery small">
+			<div class="layout">
+				<img class="zoom lazy" data-original="img/lazy-placeholder">
+				<div class="caption">
+					<b>VIDEO OU ANIM</b>, Scheman dispositif.
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+
+				<p>
+					 D’autres ont emprunté un chemin bien différent: celui de la digestion enzymatique. Le principe? Dissoudre ou transformer
+					le plastique grâce à une enzyme, molécule capable d’accélérer une réaction chimique. Les scientifiques ont découvert de telles
+					molécules dans la nature: Ideonella sakaiensis, une bactérie découverte au Japon en 2016, en possède une, la PETase, capable
+					de digérer le PET. La fausse teigne de cire, une chenille, en possède d’autres. Plusieurs équipes et entreprises travaillent
+					à la mise au point d’un procédé industriel de digestion enzymatique du plastique. Mais comme le ramassage, la digestion du
+					plastique est un processus lent. Et coûteux: il n’est pas rare que des enzymes dépassent les mille francs le gramme, rappelle
+					François Galgani. Comment dès lors imaginer compenser les 8 millions de tonnes de plastique abandonnées dans la mer chaque
+					année?
+
+				</p>
+
+				<p>
+					 Une solution réside dans la réduction des déchets. Ne dit on pas après tout que le meilleur déchet est celui que l’on ne
+					produit pas? Dans ce contexte, l’association Zero Waste Switzerland s’est donné pour mission «d’œuvrer en faveur de la réduction
+					des déchets et du gaspillage», peut-on lire sur son site. Ceux qui se lancent dans l’aventure doivent revoir toutes leurs
+					habitudes: acheter leurs denrées en vrac, s’équiper en contenants réutilisables ou encore refuser les plastiques jetables.
+					Un sacrifice loin d’être vain, au vu des résultats. Ceux qui joignent les rangs de l’association voient leur production de
+					déchets chuter, «de 600 à 18 kilos par an pour une famille jurassienne de quatre personnes, ou de 73 à 9 kilos pour une personne
+					seule dans le canton de Genève», assure Gabrielle Camara, ambassadrice lausannoise de l’association.
+				</p>
+
+				<p>
+					 Sans aller aussi loin, le public semble bien prendre conscience que le plastique nous fait marcher sur la tête. En témoignent
+					le succès des Plastic Attacks un peu partout dans le monde. Plusieurs ont essaimé début juin dans quelques villes de Suisse.
+					«Les consommateurs se sentent un peu pris en otage par la grande distribution qui impose le suremballage de certains produits»
+					explique Frédéric X, organisateur de la première Plastic Attack lausannoise. Avec ses comparses, il s’est planté devant des
+					supermarchés et a récupéré dans un caddie tous les emballages superflus. Qû’il a laissé sur place, estimant que c’est au
+					vendeur de les prendre en charge. «Nous avons reçu un bon accueil du public mais aussi des enseignes. Si on arrive à toucher
+					la conscience écologique, c’est déjà ça».
+
+				</p>
+
+				<p>
+					 Comptons aussi sur les sciences et les technologies pour nous donner un coup de pouce. Plutôt que d’incinérer les plastiques,
+					certaines entreprises misent sur la pyrolyse ou la gazéification, qui consiste à faire brûler le plastique à des temnpératures
+					précises et en contrôlant le taux d’oxygène, produisant ainsi un combustible intéressant ou des gaz tels que le dihydrogène,
+					potentiellement utilisable dans des moteurs. Certains fabricants d’emballages travaillent enfin à la mise au point de nouveaux
+					plastiques avant tout conçus avec le recyclage comme priorité.
+
+				</p>
+
+				<p>
+					 La question du plastique et des emballages occupe aussi l'agenda politique en Suisse. En mars, le Grand Conseil valaisan
+					a accepté un postulat pour l'installation de plates-formes de déballage dans les grandes surfaces. Un règlement similaire
+					a été accepté à Zurich.
+
+				</p>
+
+				<p>
+					 Fidèle à sa tradition, la Confédération préfère laisser faire plutôt que de légiférer. Elle s’appuie pour cela sur le récente
+					mesure des sacs en plastique payants, mis sur pied par les entreprises et qui a permis une baisse de 80% des sacs utilisés
+					en magasins, en un an. «Cette mesure a pris des années à voir le jour, elle aurait pu être appliquée il y a plus de quinze
+					ans!» s’étouffe Frédéric. Plusieurs pays sont déjà passés à l’action. l’Europe a propos en mai l’interditcion pure et simple
+					de «dix produits en plastique à usage unique les plus présents sur les plages et dans les mers européennes», parmi lesquels
+					pailles, sacs plastique ou encore coton-tige. Sans action concrète et audacieuse, la Suisse sera à la traîne et continuera
+					de brûler ses nombreux déchets, tandis que l’Europe ne les produira plus.
+
+				</p>
+
+			</div>
+		</section>
+		
+		<footer>
+			<!-- <hr class="end"> -->
+			<div class="container">
+
+				<h5>Nos grands formats</h5>
+
+				<div class="row">
+					<a href="https://labs.letemps.ch/interactive/2017/bol-dor-mirabaud-epopee-technologique/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb-boldor.jpg');"></div>
+							<div class="caption">Le Bol d'Or, une épopée technologique</div>
+						</div>
+					</a>
+
+					<a href="https://labs.letemps.ch/interactive/2016/longread-parc-adula/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb_adula.jpg');"></div>
+							<div class="caption">Parc Adula: Bataille dans la montagne</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="row">
+				<a href="https://labs.letemps.ch/interactive/2016/longread-fioul-lourd/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb_fioul.jpg');"></div>
+							<div class="caption">Fioul lourd, le sang impur de la globalisation</div>
+						</div>
+					</a>
+
+					<a href="https://labs.hebdo.ch/interactive/2016/longread-horlogerie-japonaise/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb-horlogerie-japonaise.jpg');"></div>
+							<div class="caption">Horlogerie japonaise – A la conquête du monde</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="row">
+					<a href="https://labs.letemps.ch/interactive/2016/longread-gothard/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb_gothard.jpg');"></div>
+							<div class="caption">Les oubliés du Gothard</div>
+						</div>
+					</a>
+					<a href="https://labs.letemps.ch/interactive/2016/tchernobyl-30-ans/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb-tchernobyl.jpg');"></div>
+							<div class="caption">30 ans après, voyage au cœur de la zone </div>
+						</div>
+					</a>
+				</div>
+
+				<div class="row">
+					<a href="https://labs.letemps.ch/interactive/2016/shenzhen/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb_shenzhen.jpg');"></div>
+							<div class="caption">Shenzhen, de la fumée des usines aux ateliers d'artistes</div>
+						</div>
+					</a>
+					<a href="https://labs.letemps.ch/interactive/2016/montre-suisse/" target="blank" class="footer__link">
+						<div class="teaser">
+							<div class="teaser-bg" style="background: url('img/thumb-montre.jpg');"></div>
+							<div class="caption">Comment j'ai fabriqué ma montre en 8 heures</div>
+						</div>
+					</a>
+					
+				</div>
+
+			</div>
+
+			<div class="credits">
+				Texte: Pascaline Minet<br>
+				Illustrations: Florent Collioud et César Greppin<br>
+				Vidéos: Arnaud Mathier<br>
+				Webdesign et animation: César Greppin
+			</div>
+		</footer>
+		
+		{{ block('footer_brand') }}
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+        <script src="js/jquery.lazyload.js?v=1.9.7"></script>
+        <script src="js/intro-control.js"></script>
+		<script src="js/viewport.js"></script>
+        <!--<script src="js/timeline-control.js"></script>-->
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/main.js"></script>
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+        <!--<script src="js/video-control.js"></script>-->
+        <!--<script src="js/map-anim.js"></script>-->
+		<!--<script src="js/hero-control.js"></script>-->
+		
+        <script src="js/zoom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+	</body>
+</html>
