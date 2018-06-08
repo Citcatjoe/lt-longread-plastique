@@ -384,6 +384,7 @@ section.scene
 		  margin: auto;
 		  width :34px;
           height: 55px;
+          margin-bottom: 1000px;
           
           @include breakpoint(sm) { 
                     transform: scale(0.75);
@@ -394,7 +395,7 @@ section.scene
 		  width: 3px;
 		  padding: 10px 16px 10px 13px;
 		  height: 55px;
-		  border: 2px solid #93b871;
+		  border: 2px solid #5FA89E;
 		  border-radius: 25px;
 		  opacity: 0.75;
 		}
@@ -402,7 +403,7 @@ section.scene
 		  width: 3px;
 		  height: 10px;
 		  border-radius: 25%;
-		  background-color: #93b871;
+		  background-color: #5FA89E;
 		  animation-name: scroll;
 		  animation-duration: 2.2s;
 		  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
@@ -412,7 +413,24 @@ section.scene
 		  0% { opacity: 0; }
 		  10% { transform: translateY(0); opacity: 1; }
 		  100% { transform: translateY(15px); opacity: 0;}
-		} 
+        } 
+        
+    .scene-title
+    {
+        font-family: Roboto;
+        font-weight: 700;
+    }
+
+    .scene-bullet 
+    {
+        font-family: Roboto;
+        font-weight: 900;
+    }
+
+    .scene-text 
+    {
+        font-family: Roboto;
+    }
 
 // section.animation
 // {

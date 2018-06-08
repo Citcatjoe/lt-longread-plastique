@@ -1975,18 +1975,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexLT.php": {
+	"\/indexH.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/indexLT.php",
-		"oF": 0
-		},
-	"\/indexLT2.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/indexLT2.php",
+		"oAP": "\/indexH.php",
 		"oF": 0
 		},
 	"\/js\/animation-charts-min.js": {
@@ -2085,6 +2078,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/graphs-control-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/gyres-anim.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/gyres-anim-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2195,16 +2198,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/map-anim-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/map-anim.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/map-anim-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2329,6 +2322,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/prod\/Capture d’écran 2018-06-08 à 10.13.50.png": {
+		"ft": 32768,
+		"iS": 600386,
+		"oA": 0,
+		"oAP": "\/prod\/Capture d’écran 2018-06-08 à 10.13.50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/prod\/chart-courbe.ai": {
 		"cB": 0,
 		"ft": 8192,
@@ -2357,6 +2361,41 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/prod\/LTXXX_2018_PLASTIQUES_BUBBLE_CHART_WEB.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_BUBBLE_CHART_WEB.ai",
+		"oF": 0
+		},
+	"\/prod\/LTXXX_2018_PLASTIQUES_PAYS.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_PAYS.ai",
+		"oF": 0
+		},
+	"\/prod\/LTXXX_2018_PLASTIQUES_POUBELLEai.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_POUBELLEai.ai",
+		"oF": 0
+		},
+	"\/prod\/monde.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/monde.ai",
+		"oF": 0
+		},
+	"\/prod\/palette.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/palette.ai",
+		"oF": 0
 		},
 	"\/prod\/part du plastique dans le pétrole.png": {
 		"ft": 32768,
