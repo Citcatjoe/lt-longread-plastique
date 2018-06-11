@@ -1536,16 +1536,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/article\/chart2 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/article\/chart2 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/article\/chart2.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1576,16 +1566,15 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/article\/map-suisse.png": {
-		"ft": 32768,
-		"iS": 484378,
-		"oA": 0,
-		"oAP": "\/img\/article\/map-suisse.png",
+	"\/img\/article\/chart5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/article\/chart5.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/article\/map-suisse.svg": {
 		"ft": 2097152,
@@ -1597,121 +1586,109 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/article\/portrait-chevre.jpg": {
+	"\/img\/article\/plastique-roi.jpg": {
 		"ft": 16384,
-		"iS": 244614,
+		"iS": 335779,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/article\/portrait-chevre.jpg",
+		"oAP": "\/img\/article\/plastique-roi.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/article\/portrait-cornamusaz.jpg": {
-		"ft": 16384,
-		"iS": 448326,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/portrait-cornamusaz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/portrait-lebleu.jpg": {
-		"ft": 16384,
-		"iS": 416641,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/portrait-lebleu.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/poster1.jpg": {
-		"ft": 16384,
-		"iS": 210230,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/poster1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/poster2.jpg": {
-		"ft": 16384,
-		"iS": 188275,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/poster2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/posterble.jpg": {
-		"ft": 16384,
-		"iS": 329491,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/posterble.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/posterbzz.jpg": {
-		"ft": 16384,
-		"iS": 283693,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/posterbzz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/postercoq.jpg": {
-		"ft": 16384,
-		"iS": 269326,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/postercoq.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/posterfleurs.jpg": {
-		"ft": 16384,
-		"iS": 355510,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/posterfleurs.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/posterriviere.jpg": {
-		"ft": 16384,
-		"iS": 317558,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/article\/posterriviere.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/article\/scene.svg": {
+	"\/img\/article\/scene-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/article\/scene.svg",
+		"oAP": "\/img\/article\/scene-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/article\/slider1.jpg": {
+		"ft": 16384,
+		"iS": 476000,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/slider2.jpg": {
+		"ft": 16384,
+		"iS": 333342,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/slider3.jpg": {
+		"ft": 16384,
+		"iS": 327680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/slider4.jpg": {
+		"ft": 16384,
+		"iS": 131072,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/slider5.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/slider6.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/slider7.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/timeline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/article\/timeline.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1722,6 +1699,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/cd-arrow-tl.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/chart1_page de droite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/chart1_page de droite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1779,6 +1766,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/logo-responsable-overlay.jpg": {
+		"ft": 16384,
+		"iS": 42002,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/logo-responsable-overlay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/logo-responsable.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/logo-responsable.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo-sponsor-only-neg.svg": {
 		"ft": 2097152,
@@ -2082,6 +2091,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/gyres-anim-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/gyres-anim-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/gyres-anim.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2322,6 +2341,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/prod\/Capture d’écran 2018-06-04 à 15.45.36.png": {
+		"ft": 32768,
+		"iS": 224846,
+		"oA": 0,
+		"oAP": "\/prod\/Capture d’écran 2018-06-04 à 15.45.36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/prod\/Capture d’écran 2018-06-08 à 10.13.50.png": {
 		"ft": 32768,
 		"iS": 600386,
@@ -2362,6 +2392,1204 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/prod\/elements\/boules_bleue.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boules_bleue.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/boules_jaune.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boules_jaune.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/boules_rouge.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boules_rouge.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/boules_verte.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boules_verte.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/bouteille.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/bouteille.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/boxes_bleu.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boxes_bleu.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/boxes_orange.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boxes_orange.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/boxes_rose.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boxes_rose.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/boxes_vert.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/boxes_vert.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/canard.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/canard.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/chaise.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/chaise.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/fenetre.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/fenetre.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/gobelets_bleu.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/gobelets_bleu.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/gobelets_orange.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/gobelets_orange.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/gobelets_rouge.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/gobelets_rouge.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/gobelets_vert.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/gobelets_vert.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/lego.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/lego.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/produit_douche.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/produit_douche.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/produits_1.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/produits_1.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/produits_2.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/produits_2.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/produits_3.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/produits_3.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/sac.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/sac.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/tetine.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/tetine.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/tuyau.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/tuyau.psd",
+		"oF": 0
+		},
+	"\/prod\/elements\/tuyau_2.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/elements\/tuyau_2.psd",
+		"oF": 0
+		},
+	"\/prod\/JPEG\/PlasticAttack01smaz.jpg": {
+		"ft": 16384,
+		"iS": 344715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack01smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack02smaz.jpg": {
+		"ft": 16384,
+		"iS": 513836,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack02smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack03smaz.jpg": {
+		"ft": 16384,
+		"iS": 440891,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack03smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack04smaz.jpg": {
+		"ft": 16384,
+		"iS": 439520,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack04smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack05smaz.jpg": {
+		"ft": 16384,
+		"iS": 509277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack05smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack06smaz.jpg": {
+		"ft": 16384,
+		"iS": 440905,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack06smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack07smaz.jpg": {
+		"ft": 16384,
+		"iS": 510148,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack07smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack08smaz.jpg": {
+		"ft": 16384,
+		"iS": 407627,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack08smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack09smaz.jpg": {
+		"ft": 16384,
+		"iS": 466277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack09smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack10smaz.jpg": {
+		"ft": 16384,
+		"iS": 422592,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack10smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack11smaz.jpg": {
+		"ft": 16384,
+		"iS": 518564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack11smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack12smaz.jpg": {
+		"ft": 16384,
+		"iS": 432594,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack12smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack13smaz.jpg": {
+		"ft": 16384,
+		"iS": 208953,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack13smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack14smaz.jpg": {
+		"ft": 16384,
+		"iS": 250849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack14smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack15smaz.jpg": {
+		"ft": 16384,
+		"iS": 338386,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack15smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack16smaz.jpg": {
+		"ft": 16384,
+		"iS": 520025,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack16smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack17smaz.jpg": {
+		"ft": 16384,
+		"iS": 306111,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack17smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack18smaz.jpg": {
+		"ft": 16384,
+		"iS": 311581,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack18smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack19smaz.jpg": {
+		"ft": 16384,
+		"iS": 411690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack19smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack20smaz.jpg": {
+		"ft": 16384,
+		"iS": 231116,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack20smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack21smaz.jpg": {
+		"ft": 16384,
+		"iS": 298560,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack21smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack22smaz.jpg": {
+		"ft": 16384,
+		"iS": 227077,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack22smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack23smaz.jpg": {
+		"ft": 16384,
+		"iS": 462912,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack23smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack24smaz.jpg": {
+		"ft": 16384,
+		"iS": 390405,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack24smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack25smaz.jpg": {
+		"ft": 16384,
+		"iS": 290701,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack25smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack26smaz.jpg": {
+		"ft": 16384,
+		"iS": 473427,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack26smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack27smaz.jpg": {
+		"ft": 16384,
+		"iS": 445231,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack27smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack28smaz.jpg": {
+		"ft": 16384,
+		"iS": 370167,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack28smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack29smaz.jpg": {
+		"ft": 16384,
+		"iS": 358456,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack29smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack30smaz.jpg": {
+		"ft": 16384,
+		"iS": 321073,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack30smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack31smaz.jpg": {
+		"ft": 16384,
+		"iS": 229885,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack31smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack32smaz.jpg": {
+		"ft": 16384,
+		"iS": 358232,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack32smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack33smaz.jpg": {
+		"ft": 16384,
+		"iS": 392696,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack33smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack34smaz.jpg": {
+		"ft": 16384,
+		"iS": 518660,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack34smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack35smaz.jpg": {
+		"ft": 16384,
+		"iS": 640579,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack35smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack36smaz.jpg": {
+		"ft": 16384,
+		"iS": 562506,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack36smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack37smaz.jpg": {
+		"ft": 16384,
+		"iS": 571941,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack37smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack38smaz.jpg": {
+		"ft": 16384,
+		"iS": 513909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack38smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack39smaz.jpg": {
+		"ft": 16384,
+		"iS": 540616,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack39smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack40smaz.jpg": {
+		"ft": 16384,
+		"iS": 301323,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack40smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack41smaz.jpg": {
+		"ft": 16384,
+		"iS": 257017,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack41smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack42smaz.jpg": {
+		"ft": 16384,
+		"iS": 561208,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack42smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack43smaz.jpg": {
+		"ft": 16384,
+		"iS": 556858,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack43smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack44smaz.jpg": {
+		"ft": 16384,
+		"iS": 563667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack44smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack45smaz.jpg": {
+		"ft": 16384,
+		"iS": 568846,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack45smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack46smaz.jpg": {
+		"ft": 16384,
+		"iS": 768774,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack46smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack47smaz.jpg": {
+		"ft": 16384,
+		"iS": 796967,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack47smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/PlasticAttack48smaz.jpg": {
+		"ft": 16384,
+		"iS": 574382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/PlasticAttack48smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique01smaz.jpg": {
+		"ft": 16384,
+		"iS": 389905,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique01smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique02smaz.jpg": {
+		"ft": 16384,
+		"iS": 404297,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique02smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique03smaz.jpg": {
+		"ft": 16384,
+		"iS": 260917,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique03smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique04smaz.jpg": {
+		"ft": 16384,
+		"iS": 216431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique04smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique05smaz.jpg": {
+		"ft": 16384,
+		"iS": 179478,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique05smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique06smaz.jpg": {
+		"ft": 16384,
+		"iS": 280135,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique06smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique07smaz.jpg": {
+		"ft": 16384,
+		"iS": 322840,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique07smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique08smaz.jpg": {
+		"ft": 16384,
+		"iS": 411113,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique08smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique09smaz.jpg": {
+		"ft": 16384,
+		"iS": 282458,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique09smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique11smaz.jpg": {
+		"ft": 16384,
+		"iS": 438168,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique11smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique12smaz.jpg": {
+		"ft": 16384,
+		"iS": 242816,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique12smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique19smaz.jpg": {
+		"ft": 16384,
+		"iS": 224535,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique19smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique23smaz.jpg": {
+		"ft": 16384,
+		"iS": 448156,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique23smaz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_01_L1010349.jpg": {
+		"ft": 16384,
+		"iS": 248109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_01_L1010349.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_02_L1010338.jpg": {
+		"ft": 16384,
+		"iS": 131653,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_02_L1010338.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_03_L1010283.jpg": {
+		"ft": 16384,
+		"iS": 289510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_03_L1010283.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_04_L1010280.jpg": {
+		"ft": 16384,
+		"iS": 359455,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_04_L1010280.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_05_L1010273.jpg": {
+		"ft": 16384,
+		"iS": 407128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_05_L1010273.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_05_L1010287.jpg": {
+		"ft": 16384,
+		"iS": 179582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_05_L1010287.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_06_L1010309.jpg": {
+		"ft": 16384,
+		"iS": 316084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_06_L1010309.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_07_L1010322.jpg": {
+		"ft": 16384,
+		"iS": 318276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_07_L1010322.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_08_L1010334.jpg": {
+		"ft": 16384,
+		"iS": 318386,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_08_L1010334.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_09_L1010296.jpg": {
+		"ft": 16384,
+		"iS": 369153,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_09_L1010296.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_10_L1010243.jpg": {
+		"ft": 16384,
+		"iS": 407388,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_10_L1010243.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_10_L1010270.jpg": {
+		"ft": 16384,
+		"iS": 483627,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_10_L1010270.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_11_L1010242.jpg": {
+		"ft": 16384,
+		"iS": 427734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_11_L1010242.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_12_L1010254.jpg": {
+		"ft": 16384,
+		"iS": 233953,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_12_L1010254.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_13_L1010232.jpg": {
+		"ft": 16384,
+		"iS": 340690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_13_L1010232.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_14_L1010260.jpg": {
+		"ft": 16384,
+		"iS": 440277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_14_L1010260.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_15_L1010053.jpg": {
+		"ft": 16384,
+		"iS": 658268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_15_L1010053.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_16_L1010059.jpg": {
+		"ft": 16384,
+		"iS": 525982,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_16_L1010059.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_17_L1010049.jpg": {
+		"ft": 16384,
+		"iS": 866040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_17_L1010049.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_18_L1000996.jpg": {
+		"ft": 16384,
+		"iS": 629919,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_18_L1000996.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_19_L1000979.jpg": {
+		"ft": 16384,
+		"iS": 329048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_19_L1000979.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_20_L1000972.jpg": {
+		"ft": 16384,
+		"iS": 782700,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_20_L1000972.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_21_L1000985.jpg": {
+		"ft": 16384,
+		"iS": 749747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_21_L1000985.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_22_L1000975.jpg": {
+		"ft": 16384,
+		"iS": 717749,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_22_L1000975.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_23_L1010007.jpg": {
+		"ft": 16384,
+		"iS": 1234981,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_23_L1010007.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_24_L1010008.jpg": {
+		"ft": 16384,
+		"iS": 1170816,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_24_L1010008.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_25_L1010016.jpg": {
+		"ft": 16384,
+		"iS": 430967,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_25_L1010016.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_26_L1010011.jpg": {
+		"ft": 16384,
+		"iS": 849563,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_26_L1010011.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_27_L1010657.jpg": {
+		"ft": 16384,
+		"iS": 444145,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_27_L1010657.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_28_L1010022.jpg": {
+		"ft": 16384,
+		"iS": 413099,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_28_L1010022.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_29_L1010021.jpg": {
+		"ft": 16384,
+		"iS": 465120,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_29_L1010021.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/prod\/JPEG\/Plastique_30_L1010035.jpg": {
+		"ft": 16384,
+		"iS": 543290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/prod\/JPEG\/Plastique_30_L1010035.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/prod\/LTXXX_2018_PLASTIQUES_BUBBLE_CHART_WEB.ai": {
 		"cB": 0,
 		"ft": 8192,
@@ -2369,18 +3597,32 @@
 		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_BUBBLE_CHART_WEB.ai",
 		"oF": 0
 		},
-	"\/prod\/LTXXX_2018_PLASTIQUES_PAYS.ai": {
+	"\/prod\/LTXXX_2018_PLASTIQUES_CARTE_WEB.ai": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_PAYS.ai",
+		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_CARTE_WEB.ai",
 		"oF": 0
 		},
-	"\/prod\/LTXXX_2018_PLASTIQUES_POUBELLEai.ai": {
+	"\/prod\/LTXXX_2018_PLASTIQUES_DONNUT_CHART_WEB.ai": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_POUBELLEai.ai",
+		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_DONNUT_CHART_WEB.ai",
+		"oF": 0
+		},
+	"\/prod\/LTXXX_2018_PLASTIQUES_PAYS_WEB.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_PAYS_WEB.ai",
+		"oF": 0
+		},
+	"\/prod\/LTXXX_2018_PLASTIQUES_SHEMA_WEB.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/LTXXX_2018_PLASTIQUES_SHEMA_WEB.ai",
 		"oF": 0
 		},
 	"\/prod\/monde.ai": {
@@ -2406,17 +3648,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/prod\/plastique-roi.jpg": {
-		"ft": 16384,
-		"iS": 335779,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/prod\/plastique-roi.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/prod\/producteurs de plastique.png": {
@@ -2473,6 +3704,20 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/prod\/slider-pictos.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/slider-pictos.ai",
+		"oF": 0
+		},
+	"\/prod\/Tastaturbelegung_PiktoRecycling_2017-03.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/Tastaturbelegung_PiktoRecycling_2017-03.pdf",
+		"oF": 0
 		},
 	"\/prod\/utilisation du plastique.png": {
 		"ft": 32768,

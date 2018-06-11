@@ -72,11 +72,11 @@ $zModal: 300;
   }
  
   @else if $class == md {
-    @media (max-width: 992px) { @content; }
+    @media (max-width: 1024px) { @content; }
   }
  
   @else if $class == lg {
-    @media (max-width: 1200px) { @content; }
+    @media (max-width: 1280px) { @content; }
   }
 
   @else if $class == xl {

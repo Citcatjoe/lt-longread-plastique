@@ -4,8 +4,8 @@
 
   position: absolute;
   left: 50%;
-  /*top: 47%; with sponsor*/
-  top: 54%; 
+  top: 47%; /*with sponsor*/
+  /* top: 54%;  */
   transform: translateX(-48%);
 }
 

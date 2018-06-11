@@ -154,7 +154,7 @@ h3 {
       font-weight: 900;
       font-size: 45px;
       line-height: 50px; }
-      @media (max-width: 992px) {
+      @media (max-width: 1024px) {
         h3.inter-titre.title {
           font-size: 35px;
           line-height: 40px; } }
@@ -252,7 +252,7 @@ section.encart p:first-of-type:first-letter {
 
 blockquote {
   width: 62%; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1280px) {
     blockquote {
       width: 80%;
       line-height: 40px;
@@ -261,7 +261,7 @@ blockquote {
     float: right;
     margin: 0 -210px 20px 40px;
     text-align: left; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       blockquote.right {
         margin: 0 0 20px 40px; } }
     @media (max-width: 500px) {
@@ -315,7 +315,7 @@ blockquote {
     line-height: 17px;
     margin-top: 17px;
     text-align: right; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       blockquote .caption {
         text-align: left; } }
     @media (max-width: 500px) {
@@ -327,10 +327,10 @@ blockquote {
   width: 62%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1280px) {
     .block-content {
       width: 40%; } }
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     .block-content {
       width: 100%; } }
   .block-content.medallion {
@@ -344,14 +344,14 @@ blockquote {
     float: left;
     margin: 10px 60px 20px -210px;
     text-align: left; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       .block-content.left {
         margin: 10px 40px 20px 0%; } }
   .block-content.right {
     float: right;
     margin: 15px -210px 20px 60px;
     text-align: right; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       .block-content.right {
         margin: 15px 0% 20px 40px; } }
   .block-content .caption {
@@ -360,7 +360,7 @@ blockquote {
     margin-top: 17px;
     font-size: 11px;
     line-height: 17px; }
-    @media (max-width: 992px) {
+    @media (max-width: 1024px) {
       .block-content .caption {
         text-align: left; } }
 
@@ -568,7 +568,7 @@ header {
   background-position: center top !important;
   overflow: hidden;
   position: relative; }
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     header {
       margin-bottom: 50px; } }
   @media (max-width: 500px) {
@@ -605,10 +605,10 @@ header {
     background-position: center center;
     background-size: cover;
     position: absolute; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       header .video-wrapper {
         background-size: cover; } }
-    @media (max-width: 992px) {
+    @media (max-width: 1024px) {
       header .video-wrapper {
         background-size: cover; } }
     header .video-wrapper.is-blurred {
@@ -675,7 +675,7 @@ section {
   section .container {
     max-width: 700px;
     margin: auto; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       section .container {
         width: 90%; } }
   section.inter-titre {
@@ -687,7 +687,7 @@ section {
     border-top: 10px solid #5FA99F;
     background-attachment: fixed !important;
     background-size: cover !important; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       section.inter-titre {
         background-attachment: scroll !important;
         background-position: center center !important; } }
@@ -766,7 +766,7 @@ section {
       font-weight: 400;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale; }
-      @media (max-width: 992px) {
+      @media (max-width: 1024px) {
         section.video .caption {
           position: static;
           padding: 11px 0 0 0; } }
@@ -818,7 +818,7 @@ section {
         font-weight: 400;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
-        @media (max-width: 1200px) {
+        @media (max-width: 1280px) {
           section.gallery .layout .caption {
             position: static;
             padding: 11px 0 0 0;
@@ -831,12 +831,12 @@ section {
         background-size: cover !important;
         background-attachment: fixed !important;
         position: relative; }
-        @media (max-width: 1200px) {
+        @media (max-width: 1280px) {
           section.gallery.hero .layout {
             height: auto; } }
         section.gallery.hero .layout img {
           margin-bottom: 0; }
-          @media (max-width: 1200px) {
+          @media (max-width: 1280px) {
             section.gallery.hero .layout img {
               display: block; } }
         section.gallery.hero .layout .caption {
@@ -850,16 +850,25 @@ section {
           -ms-transform: translateX(-50%);
           -o-transform: translateX(-50%);
           transform: translateX(-50%); }
-          @media (max-width: 992px) {
+          @media (max-width: 1024px) {
             section.gallery.hero .layout .caption {
               width: 90%; } }
-    @media (max-width: 992px) {
+    @media (max-width: 1024px) {
       section.gallery.big {
         margin-bottom: 0px; } }
+    @media (max-width: 1600px) {
+      section.gallery.big.scene-map .layout {
+        max-width: 950px; } }
+    @media (max-width: 1280px) {
+      section.gallery.big.scene-map .layout {
+        max-width: 750px; } }
+    @media (max-width: 1024px) {
+      section.gallery.big.scene-map .layout {
+        max-width: 100%; } }
     section.gallery.big .layout {
       width: 90%;
       max-width: 1120px; }
-      @media (max-width: 992px) {
+      @media (max-width: 1024px) {
         section.gallery.big .layout {
           width: 700px;
           max-width: 90%; } }
@@ -871,32 +880,32 @@ section {
           position: initial;
           width: 100%;
           padding: 11px 11px 0 11px; } }
-      @media (max-width: 992px) {
+      @media (max-width: 1024px) {
         section.gallery.big .layout .caption {
           padding: 11px 0 0 0px; } }
     section.gallery.small .layout {
       width: 700px;
       max-width: 90%; }
-    @media (max-width: 992px) {
+    @media (max-width: 1024px) {
       section.gallery.double {
         margin-bottom: 0; } }
     section.gallery.double.margin-bottom {
       padding-bottom: 1.5%; }
-      @media (max-width: 992px) {
+      @media (max-width: 1024px) {
         section.gallery.double.margin-bottom {
           padding-bottom: 0; } }
     section.gallery.double .layout {
       width: 100%;
       max-width: 1120px;
       overflow: auto; }
-      @media (max-width: 1200px) {
+      @media (max-width: 1280px) {
         section.gallery.double .layout {
           width: 100%; } }
       section.gallery.double .layout .layout-inner {
         width: 49%;
         float: left;
         margin-right: 2%; }
-        @media (max-width: 992px) {
+        @media (max-width: 1024px) {
           section.gallery.double .layout .layout-inner {
             width: 100%;
             margin-right: 0;
@@ -907,7 +916,7 @@ section {
           position: static;
           padding-left: 0;
           width: 100%; }
-          @media (max-width: 992px) {
+          @media (max-width: 1024px) {
             section.gallery.double .layout .layout-inner .caption {
               padding-left: 5%;
               padding-right: 5%; } }
@@ -918,14 +927,14 @@ section {
     section.gallery.triple .layout {
       width: 100%;
       max-width: 1120px; }
-      @media (max-width: 1200px) {
+      @media (max-width: 1280px) {
         section.gallery.triple .layout {
           width: 100%; } }
       section.gallery.triple .layout .layout-inner {
         width: 32%;
         float: left;
         margin-right: 2%; }
-        @media (max-width: 992px) {
+        @media (max-width: 1024px) {
           section.gallery.triple .layout .layout-inner {
             width: 100%;
             margin-right: 0;
@@ -998,14 +1007,14 @@ section {
         font-size: 15px;
         line-height: 25px;
         margin-bottom: 25px; }
-      @media (max-width: 1200px) {
+      @media (max-width: 1280px) {
         section.encart .container {
           padding-bottom: 50px; }
           section.encart .container p {
             font-size: 15px;
             line-height: 25px;
             margin-bottom: 25px; } }
-      @media (max-width: 992px) {
+      @media (max-width: 1024px) {
         section.encart .container {
           -webkit-column-count: 2;
           -moz-column-count: 2;
@@ -1066,6 +1075,25 @@ section {
               font-size: 22px;
               line-height: 27px;
               margin-top: 20px; } }
+  section.noisette {
+    width: 100%;
+    padding: 0; }
+    section.noisette .layout {
+      max-width: 1120px;
+      width: 100%;
+      background: #f5f5f5;
+      margin: auto;
+      overflow: auto; }
+      section.noisette .layout .noisette-left {
+        float: left;
+        width: 50%;
+        padding-bottom: 50%; }
+      section.noisette .layout .noisette-right {
+        float: left;
+        width: 50%;
+        padding-bottom: 50%; }
+    section.noisette .is-tinted {
+      background: #5ea99f; }
 
 footer {
   background: #323232;
@@ -1074,14 +1102,14 @@ footer {
   footer .container {
     max-width: 1120px;
     margin: auto; }
-    @media (max-width: 992px) {
+    @media (max-width: 1024px) {
       footer .container {
         max-width: 90%; } }
     footer .container .teaser {
       width: 48%;
       float: left;
       margin: 1% 1% 2% 1%; }
-      @media (max-width: 992px) {
+      @media (max-width: 1024px) {
         footer .container .teaser {
           width: 100%;
           float: none;
@@ -1130,7 +1158,7 @@ div.fixed-map-wrapper {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
-  @media (max-width: 1200px) {
+  @media (max-width: 1280px) {
     div.fixed-map-wrapper {
       display: none; } }
   div.fixed-map-wrapper img {
@@ -1143,7 +1171,7 @@ div.fixed-map-wrapper {
 
 .zoom {
   cursor: pointer; }
-  @media (max-width: 1200px) {
+  @media (max-width: 1280px) {
     .zoom {
       cursor: default; } }
 
@@ -1154,7 +1182,7 @@ div.fixed-map-wrapper {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #212121;
+  background: #313131;
   z-index: 1001; }
   .overlay .logo-lt-blanc {
     width: 300px;
@@ -1163,11 +1191,11 @@ div.fixed-map-wrapper {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -110%);
-    -moz-transform: translate(-50%, -110%);
-    -ms-transform: translate(-50%, -110%);
-    -o-transform: translate(-50%, -110%);
-    transform: translate(-50%, -110%); }
+    -webkit-transform: translate(-50%, -300%);
+    -moz-transform: translate(-50%, -300%);
+    -ms-transform: translate(-50%, -300%);
+    -o-transform: translate(-50%, -300%);
+    transform: translate(-50%, -300%); }
   .overlay .logo-sponsor {
     position: absolute;
     max-width: 85%;
@@ -1235,7 +1263,7 @@ div.fixed-map-wrapper {
   width: 100%;
   height: 15px;
   overflow: auto; }
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     .spacer-small {
       height: 10px; } }
 
@@ -1298,7 +1326,7 @@ section .video-wrapper {
     object-fit: cover;
     top: 0;
     width: 100%; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       section .video-wrapper video {
         padding-lefT: 0; } }
   section .video-wrapper.video-fullscreen {
@@ -1314,7 +1342,7 @@ section.scene {
     top: 50%;
     transform: translateY(-50%);
     transition: all 0.3s; }
-    @media (max-width: 992px) {
+    @media (max-width: 1024px) {
       section.scene .layout {
         width: 100%;
         margin-right: 0;
@@ -1336,7 +1364,7 @@ section.scene {
       color: #b5b5b5;
       font-family: Oswald;
       font-style: italic; }
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     section.scene .scene-figure {
       width: 49% !important;
       float: left !important;
@@ -1350,7 +1378,7 @@ section.scene {
     padding: 0 15px;
     transition: all 0.3s;
     margin-right: 0 !important; }
-    @media (max-width: 992px) {
+    @media (max-width: 1024px) {
       section.scene .scene-text {
         width: 49% !important;
         float: left !important;
