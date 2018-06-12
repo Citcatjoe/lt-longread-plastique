@@ -26,9 +26,17 @@ header
     	width: 100%;
     	height: 100%;
     	background: red;
-    	background: url('../img/lazy-placeholder.jpg');  
+    	background: url('../img/article/header.jpg');  
 		background-position: center bottom;
 		background-size: cover;
+
+		&.fab 
+		{
+			background: url('../img/article/header-fab.png'); 
+			background-position: center bottom;
+			background-size: cover;
+			display: none;
+		}
     }
 
     .header__gradient
@@ -132,9 +140,9 @@ header
 	        {
 	            position: absolute;
 	            //top: 17%;
-	            bottom: 14%;
+	            top: 50%;
 	            left: 10%;
-	            //transform: translate(0, -50%);
+	            transform: translate(0, -50%);
 	            width: 80%;
 	            //text-align: center; 
 
@@ -150,7 +158,7 @@ header
 	                top: auto;
 	                bottom: 15%;
 	                left: 50%;
-	                transform: translate(-50%, 0);
+	                transform: translate(-50%,-100%);
 	            }
 	        }
 	    }

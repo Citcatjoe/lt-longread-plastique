@@ -1576,6 +1576,50 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/article\/heade2.jpg": {
+		"ft": 16384,
+		"iS": 418666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/heade2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/heade3.jpg": {
+		"ft": 16384,
+		"iS": 418279,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/heade3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/article\/header-fab.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/header-fab.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article\/header.jpg": {
+		"ft": 16384,
+		"iS": 418263,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article\/map-suisse.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2565,6 +2609,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prod\/elements\/tuyau_2.psd",
+		"oF": 0
+		},
+	"\/prod\/header.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/prod\/header.psd",
 		"oF": 0
 		},
 	"\/prod\/JPEG\/PlasticAttack01smaz.jpg": {

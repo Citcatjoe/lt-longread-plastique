@@ -28,7 +28,8 @@ $odd-color: #f7f7f7;
 //@include font-face("rooney_medium", "../fonts/rooney_medium", $file-formats: eot woff ttf svg); 
   //@include font-face("rooney_bold", "../fonts/rooney_bold", $file-formats: eot woff ttf svg); 
 
-$font1: 'Merriweather';
+//$font1: 'Merriweather';
+$font1: 'Poppins';
 $font2: 'Open sans';
 $font3: 'Oswald';
 
@@ -95,30 +96,31 @@ hr { background: $red-lt-darker; height: 4px !important; width: 150px; border-ra
 
 h1
 {
-    font-size: 80px;
-    line-height: 90px;
+    font-size: 110px;
+    line-height: 120px;
     color: #fff;
     //font-family: $font1; 
     font-family: $font1;
-    //text-transform: uppercase;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
     text-align: center;
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1005px;
-    //text-shadow: rgba(0, 0, 0, 0.3) 0 1px 8px, rgba(0, 0, 0, 0.3) 0px 0px 1px;
+    max-width: 1100px;
+    text-shadow: rgba(0, 0, 0, 0.3) 0 1px 8px, rgba(0, 0, 0, 0.3) 0px 0px 1px;
 
      @include breakpoint(sm) { 
-        font-size:60px;
-        line-height: 70px;
+        font-size:70px;
+        line-height: 80px;
     }
 
     @include breakpoint(xs) { 
-        font-size:40px;
-        line-height: 47px;
+        font-size:50px;
+        line-height: 57px;
         text-align: center;
 
         br 
@@ -168,7 +170,8 @@ h2
     
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale; 
-    //text-shadow: rgba(0, 0, 0, 0.6) 0 1px 8px, rgba(0, 0, 0, 0.6) 0px 0px 1px;
+    text-shadow: rgba(0, 0, 0, 0.6) 0 1px 8px, rgba(0, 0, 0, 0.6) 0px 0px 1px;
+    // text-shadow: 2px 2px 2px #000000;
 
     @include breakpoint(xs) {   
         font-size: 20px;
@@ -236,6 +239,7 @@ h3
     font-weight: 400; 
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale; 
+    text-transform: uppercase;
 
     @include breakpoint(sm) { 
         font-size:30px;
@@ -252,7 +256,7 @@ h3
         font-size: 30px;
         line-height: 45px; 
         margin: 30px 0 20px 0;
-        font-family: $font2;
+        font-family: $font1;
         font-weight: 700;
         color: $black;
         text-align: left;
@@ -265,9 +269,9 @@ h3
 
         &.title 
         {
-            font-family: $font2;
+            font-family: $font1;
             font-weight: 900;
-            font-size: 45px;
+            font-size: 40px;
             line-height: 50px;
 
             @include breakpoint(md) { 

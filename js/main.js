@@ -5,6 +5,15 @@ jQuery(document).ready(function($)
 	// 	//mode: 'fade'
 	// });
 
+	$(".goubet").mouseover(function () {
+		$('.fab').show();
+	});
+
+	$(".goubet").mouseout(function () {
+		$('.fab').hide();
+	});
+
+
 
 	//360
 	$('.video-360-poster').click(function(ev){
