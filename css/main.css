@@ -246,14 +246,9 @@ section.text p:first-of-type:first-letter {
     section.text p:first-of-type:first-letter {
       font-size: 80px; } }
 
-section.encart p:first-of-type:first-letter {
-  font-family: "Poppins";
-  letter-spacing: 1px;
-  float: left;
-  font-size: 80px;
-  padding: 0.35em 0.10em 0 0;
-  font-weight: 300;
-  color: #333333; }
+section.encart p b {
+  font-size: 150%;
+  display: block; }
 
 blockquote {
   width: 62%; }

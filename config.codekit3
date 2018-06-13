@@ -1589,23 +1589,23 @@
 		},
 	"\/img\/article\/heade3.jpg": {
 		"ft": 16384,
-		"iS": 418279,
+		"iS": 385001,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/heade3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/article\/header-fab.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 27391,
 		"oA": 0,
 		"oAP": "\/img\/article\/header-fab.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1632,10 +1632,28 @@
 		},
 	"\/img\/article\/plastique-roi.jpg": {
 		"ft": 16384,
-		"iS": 335779,
+		"iS": 335561,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/plastique-roi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/poster-tri": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/article\/poster-tri",
+		"oF": 0
+		},
+	"\/img\/article\/poster-tri.jpg": {
+		"ft": 16384,
+		"iS": 210209,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/poster-tri.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1675,7 +1693,7 @@
 		},
 	"\/img\/article\/slider3.jpg": {
 		"ft": 16384,
-		"iS": 327680,
+		"iS": 328821,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/slider3.jpg",
@@ -1686,7 +1704,7 @@
 		},
 	"\/img\/article\/slider4.jpg": {
 		"ft": 16384,
-		"iS": 131072,
+		"iS": 405433,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/slider4.jpg",
@@ -1697,7 +1715,7 @@
 		},
 	"\/img\/article\/slider5.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 284783,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/slider5.jpg",
@@ -1708,7 +1726,7 @@
 		},
 	"\/img\/article\/slider6.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 323779,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/slider6.jpg",
@@ -1719,7 +1737,7 @@
 		},
 	"\/img\/article\/slider7.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 381635,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/slider7.jpg",
@@ -1824,12 +1842,12 @@
 		},
 	"\/img\/logo-responsable.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 11035,
 		"oA": 0,
 		"oAP": "\/img\/logo-responsable.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2028,11 +2046,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexH.php": {
+	"\/indexLT.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/indexH.php",
+		"oAP": "\/indexLT.php",
 		"oF": 0
 		},
 	"\/js\/animation-charts-min.js": {

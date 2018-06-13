@@ -5,6 +5,8 @@ jQuery(document).ready(function($)
 	// 	//mode: 'fade'
 	// });
 
+
+
 	$(".goubet").mouseover(function () {
 		$('.fab').show();
 	});

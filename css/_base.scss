@@ -420,20 +420,32 @@ section.text p:first-of-type:first-letter
     }
 }
 
-section.encart p:first-of-type:first-letter 
+section.encart
 {
-    font-family: $font1; 
-    letter-spacing: 1px;
-    float:left;
-    font-size: 80px;
-    padding: 0.35em 0.10em 0 0;
-    font-weight: 300;
-    color: lighten($black, 20%);
-
-    // @include breakpoint(lg) { 
-    //     font-size: 80px;
-    // }
+    p b 
+    {
+        font-size: 150%;
+      // line-height: 150%;
+       //margin-bottom:10px;
+       //padding-bottom: 10px;
+       display:block;
+    }
 }
+
+// section.encart p:first-of-type:first-letter 
+// {
+//     font-family: $font1; 
+//     letter-spacing: 1px;
+//     float:left;
+//     font-size: 80px;
+//     padding: 0.35em 0.10em 0 0;
+//     font-weight: 300;
+//     color: lighten($black, 20%);
+
+//     // @include breakpoint(lg) { 
+//     //     font-size: 80px;
+//     // }
+// }
 
 blockquote
 {

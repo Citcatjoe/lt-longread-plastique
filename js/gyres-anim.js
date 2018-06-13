@@ -1,5 +1,7 @@
 jQuery(document).ready(function ($) {
 
+    
+
     mainTl = new TimelineMax(),
     $scene = $('svg.gyres'),
     $sceneFond = $scene.find('#scene-fond'),
@@ -57,7 +59,23 @@ jQuery(document).ready(function ($) {
     title4 = "Jules Verne l'avait prédit";
     text4 = "Quatre autres gyres existent dans les autres océans. Ils sont aussi formés par des courants. Leurs mécanismes sont complexes, mais jules Verne les avait déjà esquissés dans 20 000 lieues sous les mers: «Dans le phnoméne qui nous occupe (...) la mer des Sargasses (c'est) le point central où viennent se réunir les corps flottants»";
 
-    
+    // hack to remove white space under footer
+    var whiteSpaceRemoved = false;
+    new ScrollMagic.Scene({
+        triggerElement: "footer",
+        triggerHook: 0.5,
+        duration: 100
+    })
+        .on('enter', function (e) {
+            if (whiteSpaceRemoved == false) {
+                $('footer').nextAll('div').css('display', 'none');
+                whiteSpaceRemoved = true;
+            }
+        })
+        .addIndicators()
+        .offset(0) //tip top
+        .addTo(controller);
+
     // build scene
     new ScrollMagic.Scene({
         triggerElement: 'section.scene-map',
