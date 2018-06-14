@@ -947,9 +947,18 @@ section {
             margin-bottom: 10px; } }
         section.gallery.triple .layout .layout-inner:last-child {
           margin-right: 0; }
-        section.gallery.triple .layout .layout-inner .caption {
-          padding-left: 5% !important;
-          padding-right: 5% !important; }
+      section.gallery.triple .layout .caption {
+        position: initial;
+        clear: both;
+        width: 100%;
+        padding: 11px 0 0 0; }
+        @media (max-width: 1024px) {
+          section.gallery.triple .layout .caption {
+            max-width: 700px;
+            margin: auto; } }
+        @media (max-width: 768px) {
+          section.gallery.triple .layout .caption {
+            max-width: 90%; } }
     section.gallery.slider .layout {
       width: 100%;
       max-width: 1120px; }
@@ -1467,15 +1476,11 @@ section.scene {
     opacity: 0; } }
 
 .scene-title {
-  font-family: Roboto;
   font-weight: 700; }
 
 .scene-bullet {
   font-family: Roboto;
   font-weight: 900; }
-
-.scene-text {
-  font-family: Roboto; }
 
 section.citern {
   width: 100%;

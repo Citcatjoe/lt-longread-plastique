@@ -1576,6 +1576,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/article\/fab-1.jpg": {
+		"ft": 16384,
+		"iS": 359455,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/fab-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/fab-2.jpg": {
+		"ft": 16384,
+		"iS": 340690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/fab-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article\/heade2.jpg": {
 		"ft": 16384,
 		"iS": 418666,
@@ -1589,7 +1611,7 @@
 		},
 	"\/img\/article\/heade3.jpg": {
 		"ft": 16384,
-		"iS": 385001,
+		"iS": 418279,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/heade3.jpg",
@@ -1630,9 +1652,42 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/article\/plastic-attack-1.jpg": {
+		"ft": 16384,
+		"iS": 440891,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/plastic-attack-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/plastic-attack-2.jpg": {
+		"ft": 16384,
+		"iS": 518564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/plastic-attack-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article\/plastic-attack-3.jpg": {
+		"ft": 16384,
+		"iS": 540616,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/plastic-attack-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article\/plastique-roi.jpg": {
 		"ft": 16384,
-		"iS": 335561,
+		"iS": 335779,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/plastique-roi.jpg",
@@ -1693,7 +1748,7 @@
 		},
 	"\/img\/article\/slider3.jpg": {
 		"ft": 16384,
-		"iS": 328821,
+		"iS": 326263,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/slider3.jpg",
@@ -1702,9 +1757,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/article\/slider3old.jpg": {
+		"ft": 16384,
+		"iS": 327680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/article\/slider3old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article\/slider4.jpg": {
 		"ft": 16384,
-		"iS": 405433,
+		"iS": 131072,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/article\/slider4.jpg",
@@ -2046,11 +2112,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexLT.php": {
+	"\/indexH.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/indexLT.php",
+		"oAP": "\/indexH.php",
 		"oF": 0
 		},
 	"\/js\/animation-charts-min.js": {
@@ -3340,17 +3406,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/prod\/JPEG\/Plastique_04_L1010280.jpg": {
-		"ft": 16384,
-		"iS": 359455,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/prod\/JPEG\/Plastique_04_L1010280.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/prod\/JPEG\/Plastique_05_L1010273.jpg": {
 		"ft": 16384,
 		"iS": 407128,
@@ -3456,17 +3511,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/prod\/JPEG\/Plastique_12_L1010254.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/prod\/JPEG\/Plastique_13_L1010232.jpg": {
-		"ft": 16384,
-		"iS": 340690,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/prod\/JPEG\/Plastique_13_L1010232.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3859,6 +3903,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/Untitled-1": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Untitled-1",
+		"oF": 0
 		},
 	"\/variables.json": {
 		"ft": 524288,

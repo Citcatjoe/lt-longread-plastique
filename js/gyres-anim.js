@@ -49,15 +49,15 @@ jQuery(document).ready(function ($) {
     var controller = new ScrollMagic.Controller();
     var step = 500;
     title0 = "Dans les tourbillons de plastique";
-    text0 = "Des continents de plastique à la surface des océans? Une vue de l'esprit! Cette métaphore a été popularisée après l'alerte lancée en 1997 par le navigateur Charles Moore, effrayé par la pollution. Une chose est vraie cependant: cinq grandes zones océaniques possèdent une concentration plus élevée en morceaux de plastiques.";
+    text0 = "Des continents de plastique à la surface des océans? Une vue de l'esprit! Cette métaphore a été popularisée après l'alerte lancée en 1997 par le navigateur Charles Moore, effrayé par la pollution. Une chose est vraie cependant: cinq grandes zones océaniques possèdent une concentration plus élevée en morceaux de plastique.";
     title1 = "Alizés et Coriolis sont dans un bateau";
     text1 = "A l'équateur, les eaux océaniques de surface se déplacent toujours vers l'ouest sous l'effet de divers facteurs dont la force de Coriolis, générée par la rotation de la Terre, et les alizés qui soufflent en permanence.";
     title2 = "Courants continus";
-    text2 = "Une partie de l'eau s'engouffre dans le Golfe du Mexique, le surplus ainsi créé file alors vers le Nord. Gulf Stream, courant du labrador, dérive nord-atlantique... tous ces courants fusionnent et effectuent une grande boucle jusqu'en Europe avant de redescendre vers l'équateur: retour à la case départ.";
+    text2 = "Une partie de l'eau s'engouffre dans le golfe du Mexique, le surplus ainsi créé file alors vers le nord. Gulf Stream, courant du Labrador, dérive nord-atlantique... tous ces courants fusionnent et effectuent une grande boucle jusqu'en Europe avant de redescendre vers l'équateur: retour à la case départ.";
     title3 = "Giratoire";
     text3 = "Au milieu de ces courants géostrophiques siège une zone de convergence, appelée gyre de l'Atlantique nord, où s'accumulent, depuis une cinquantaine d'années, des plastiques. Problème, avec des vents faibles et de hautes pressions atmosphériques, ces eaux de surface sont propices aux sargasses et à de nombreuses espèces animales venues se reproduire.";
     title4 = "Jules Verne l'avait prédit";
-    text4 = "Quatre autres gyres existent dans les autres océans. Ils sont aussi formés par des courants. Leurs mécanismes sont complexes, mais jules Verne les avait déjà esquissés dans 20 000 lieues sous les mers: «Dans le phnoméne qui nous occupe (...) la mer des Sargasses (c'est) le point central où viennent se réunir les corps flottants»";
+    text4 = "Quatre autres gyres existent dans les autres océans. Ils sont aussi formés par des courants. Leurs mécanismes sont complexes, mais Jules Verne les avait déjà esquissés dans «Vingt Mille Lieues sous les mers»: «Dans le phénomène qui nous occupe [...] la mer des Sargasses [c'est] le point central où viennent se réunir les corps flottants»";
 
     // hack to remove white space under footer
     var whiteSpaceRemoved = false;

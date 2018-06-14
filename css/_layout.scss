@@ -733,13 +733,27 @@ section
 						margin-right: 0;
 					}
 
-					.caption
-					{
-						padding-left: 5% !important;
-						padding-right: 5% !important;
-					}
+					
 
-			    }
+				}
+				
+				.caption
+				{
+					position: initial; 
+					clear: both; 
+					width: 100%;
+					padding: 11px 0 0 0;
+					// max-width: 90%;
+
+					@include breakpoint(md) { 
+						max-width: $columnW;
+						margin: auto;
+					}
+					
+					@include breakpoint(sm) { 
+						max-width: 90%;
+				    }
+				}
 			}
 		}
 
