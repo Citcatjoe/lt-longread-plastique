@@ -25,14 +25,21 @@ header
     	position: absolute;     
     	width: 100%;
     	height: 100%;
-    	background: red;
-    	background: url('../img/article/header.jpg');  
+    	//background: red;
+    	background: url('../img/article/header-desktop.jpg');  
 		background-position: center bottom;
 		background-size: cover;
 
+		@include breakpoint(md) { 
+			margin-bottom: 50px;     
+			background: url('../img/article/header-mobile.jpg');  
+			background-position: center center;
+			background-size: cover;
+		} 
+
 		&.fab 
 		{
-			background: url('../img/article/header-fab.png'); 
+			background: url('../img/article/fgoubet.png'); 
 			background-position: center bottom;
 			background-size: cover;
 			display: none;
@@ -140,7 +147,7 @@ header
 	        {
 	            position: absolute;
 	            //top: 17%;
-	            top: 50%;
+	            top: 30%;
 	            left: 10%;
 	            transform: translate(0, -50%);
 	            width: 80%;
@@ -148,7 +155,11 @@ header
 
 	            // @include breakpoint(md) { 
 	            //     width: 80%;
-	            // }
+				// }
+				
+				@include breakpoint(md) { 
+					top: 50%;
+				} 
 
 	            @include breakpoint(sm) {   
 					//left: 50%;
@@ -158,7 +169,7 @@ header
 	                top: auto;
 	                bottom: 15%;
 	                left: 50%;
-	                transform: translate(-50%,-100%);
+	                transform: translate(-50%,-50%);
 	            }
 	        }
 	    }

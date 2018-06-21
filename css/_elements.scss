@@ -116,6 +116,11 @@ div.fixed-map-wrapper
         height: 100%;
         width: auto;
         float: right;
+
+        @include breakpoint(xs) { 
+            height: 80%;
+            margin-top:5px;
+        }
     }
 }
 

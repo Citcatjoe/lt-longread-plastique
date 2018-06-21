@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
                 whiteSpaceRemoved = true;
             }
         })
-        .addIndicators()
+        //.addIndicators()
         .offset(0) //tip top
         .addTo(controller);
 
@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
     })
         .setPin('section.scene-map', { pushFollowers: true })
         .offset(0)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller);
 
     //------------------------------------------------------------------------------------------------------------//
